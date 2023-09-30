@@ -21,4 +21,5 @@ For this project, I am analyzing a publicly available consumer complaint dataset
 17. Consumer disputed?: Whether the consumer disputed the company's response
 18. Complaint ID: Unique identification number for complaint
 
-In the exploratory analysis section, I created plots and pivot tables to understand trends in the dataset using the _pandas_ package. Then, I wanted to parse the Consumer complaint narrative feature using _spaCy_. I lemmatized nouns, verbs, and adjectives found in each consumer complaint to determine significant patterns and popular topics. 
+I formulated the research question: How can the CFPB develop a targeted approach to addressing 800,000+ annual consumer complaints?
+I investigated 5000 rows of 2022 consumer complaint data to address the research question. In the exploratory analysis section, I created plots and pivot tables to understand trends in the dataset using the _pandas_ package. Then, I wanted to parse the Consumer complaint narrative feature using _spaCy_. I lemmatized nouns, verbs, and adjectives found in each consumer complaint and leveraged topic modeling techniques to identify significant patterns and consumer's primary complaint concerns. 
